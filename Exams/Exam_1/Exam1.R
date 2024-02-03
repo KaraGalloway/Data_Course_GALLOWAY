@@ -1,5 +1,4 @@
 library(tidyverse)
-library(ggplot2)
 
 ##I.####
 df <- read.csv("./data/cleaned_covid_data.csv")
