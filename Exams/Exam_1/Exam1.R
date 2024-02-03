@@ -35,3 +35,4 @@ ggplot(us_covid_deaths, mapping = aes(x = Last_Update, y = all_deaths)) +
 # or
 ggplot(us_covid_deaths, mapping = aes(x = Last_Update, y = all_deaths)) +
   geom_point()
+
