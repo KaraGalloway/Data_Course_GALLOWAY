@@ -1,0 +1,9 @@
+Assignment 8 - Kara Galloway
+1. Yes, I think so. My model used light as the independent variable. The model predicts that the more light there is, the higher the growth rate. Eventually you can't just keep adding more light- there are only so many hours in the day!
+
+2. Yep! The relationship between growth rate and nitrogen levels is non-linear. 
+https://www.geeksforgeeks.org/non-linear-regression-in-r/
+
+3. When I plotted the data in non_linear_relationship, it looked exponential to me. So I could use an exponential model. Maybe something like this: 
+dat <- read_csv("non_linear_relationship.csv")
+datmod <- lm(log(response) ~ predictor, data = dat)
